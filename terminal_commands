@@ -1,0 +1,19 @@
+# Clone the repository
+git clone https://github.com/kaw393939/qr_code_api_broken_code.git
+cd qr_code_api_broken_code
+
+# Create and activate virtual environment
+python3 -m venv env
+source env/bin/activate
+
+# Install required packages
+pip install -r requirements.txt
+
+# Create directory for QR codes
+mkdir qr_images
+
+# Run tests to check for errors
+pytest
+
+# Launch the app with Docker
+docker-compose up --build
