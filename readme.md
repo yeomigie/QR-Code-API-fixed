@@ -15,4 +15,8 @@ This project implements a **QR Code generator** using **FastAPI** wrapped inside
 
 ## ❌ Common Errors & Fixes
 
-### 1. 
+### 1. Spell checks and bugd
+### 2. Updated dependencies
+### 3. Passed vulnerabilities
+### 4. Updated start_test.py for latest ASGITransport
+### 5. Checked all over code and tested cases
