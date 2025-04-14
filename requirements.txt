@@ -3,3 +3,4 @@ uvicorn[standard]
 pydantic
 validators
 python-jose
+pytest
